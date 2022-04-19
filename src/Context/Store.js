@@ -32,16 +32,13 @@ function StoreProvider({ children }) {
 
     }, [ setUser, setRide ]);
 
-    //////////////////////////////////
-    //////////////////////////////////
-    ////////// Hnadle Rides //////////
-    /////////////////////////////////
-    ////////////////////////////////
+
+    ////////// Handle Rides //////////
+
 
 
     /**
-     * handle up coming rides
-     * //////////////////////
+     * handle up coming ride
      * 
      * selecting all up coming rides
      * apply the Filter by:
@@ -64,7 +61,6 @@ function StoreProvider({ children }) {
 
      /**
      * handle past rides
-     * //////////////////////
      * 
      * selecting all past rides
      * apply the Filter by:
@@ -87,7 +83,6 @@ function StoreProvider({ children }) {
     
      /**
      * handling ( All Rides )
-     * //////////////////////
      * 
      * Selecting All rides
      * Apply the Filter by:
@@ -106,7 +101,6 @@ function StoreProvider({ children }) {
 
     /**
      * handling rides
-     * //////////////////////
      * 
      * return Ride by selected ( status ) // upcoming, past and "" ( for all rides )  
      * Apply the Filter by:
@@ -130,11 +124,9 @@ function StoreProvider({ children }) {
 
 
   /*
-        /////////////////////////////////////////////////////////////
-        /////////////////////////////////////////////////////////////
+
         ////////// handling status State and Filter State //////////
-        /////////////////////////////////////////////////////////////
-        /////////////////////////////////////////////////////////////
+
     */
 
     const handleStatus = ( state ) => {
